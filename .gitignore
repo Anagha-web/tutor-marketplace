@@ -1,0 +1,22 @@
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+.env
+.env.*
+!.env.example
+.vercel
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea
+Thumbs.db
+
+# Supabase CLI local state (created by `supabase link` / `supabase start`)
+supabase/.temp
+supabase/.branches
+
+# Claude Code personal settings
+.claude/settings.local.json
